@@ -71,12 +71,15 @@
                             if (success) {
                                 NSLog(@"IT WORKED");
                                 
-                                AVPlayer *player = [AVPlayer playerWithURL:videoUrl];
-                                AVPlayerLayer *layer = [AVPlayerLayer playerLayerWithPlayer:player];
-                                layer.videoGravity = AVLayerVideoGravityResize;
-                                 layer.frame = CGRectMake(self.view.frame.size.width/2 - 58 , 400, 116, 116);
-                                [self.view.layer addSublayer:layer];
-                                [player play];
+//                                AVPlayer *player = [AVPlayer playerWithURL:videoUrl];
+//                                AVPlayerLayer *layer = [AVPlayerLayer playerLayerWithPlayer:player];
+//                                layer.videoGravity = AVLayerVideoGravityResize;
+//                                 layer.frame = CGRectMake(self.view.frame.size.width/2 - 58 , 400, 116, 116);
+//                                [self.view.layer addSublayer:layer];
+//                                [player play];
+                                
+                                [captureView performSelector:@selector(startRecording) withObject:nil afterDelay:1.0];
+                                [captureView performSelector:@selector(stopRecording) withObject:nil afterDelay:5.0];
 
                             }
                             else {

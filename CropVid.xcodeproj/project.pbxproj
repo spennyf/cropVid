@@ -14,6 +14,7 @@
 		11055E461AD6F5F800761532 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11055E451AD6F5F800761532 /* Images.xcassets */; };
 		11055E491AD6F5F800761532 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11055E471AD6F5F800761532 /* LaunchScreen.xib */; };
 		11055E551AD6F5F800761532 /* CropVidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11055E541AD6F5F800761532 /* CropVidTests.m */; };
+		11B9DFE21AD786A60096012A /* ScreenCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B9DFE11AD786A60096012A /* ScreenCaptureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		11055E4E1AD6F5F800761532 /* CropVidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropVidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11055E531AD6F5F800761532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11055E541AD6F5F800761532 /* CropVidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CropVidTests.m; sourceTree = "<group>"; };
+		11B9DFE01AD786A60096012A /* ScreenCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenCaptureView.h; sourceTree = "<group>"; };
+		11B9DFE11AD786A60096012A /* ScreenCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenCaptureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				11055E3D1AD6F5F800761532 /* AppDelegate.m */,
 				11055E3F1AD6F5F800761532 /* ViewController.h */,
 				11055E401AD6F5F800761532 /* ViewController.m */,
+				11B9DFE01AD786A60096012A /* ScreenCaptureView.h */,
+				11B9DFE11AD786A60096012A /* ScreenCaptureView.m */,
 				11055E421AD6F5F800761532 /* Main.storyboard */,
 				11055E451AD6F5F800761532 /* Images.xcassets */,
 				11055E471AD6F5F800761532 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11055E411AD6F5F800761532 /* ViewController.m in Sources */,
+				11B9DFE21AD786A60096012A /* ScreenCaptureView.m in Sources */,
 				11055E3E1AD6F5F800761532 /* AppDelegate.m in Sources */,
 				11055E3B1AD6F5F800761532 /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				11055E5A1AD6F5F800761532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11055E5B1AD6F5F800761532 /* Build configuration list for PBXNativeTarget "CropVidTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				11055E5D1AD6F5F800761532 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
