@@ -209,8 +209,8 @@
                                 
 //                                [player play];
                                 
-                                [captureView performSelector:@selector(startRecording) withObject:nil afterDelay:1.0];
-                                [captureView performSelector:@selector(stopRecording) withObject:nil afterDelay:5.0];
+                                //[captureView performSelector:@selector(startRecording) withObject:nil afterDelay:1.0];
+                                //[captureView performSelector:@selector(stopRecording) withObject:nil afterDelay:5.0];
                                 
                                 
                             }
